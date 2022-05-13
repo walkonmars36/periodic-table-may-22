@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+
+  grid-auto-columns: 1fr;
+  gap: 8px 8px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "grey-blue . . . . . . . . . . . . . . . yellow1 ."
+    "pink1 paleg1 . . . . . . . . .  mint1 red1 peach1 peach2 peach3 yellow2 ."
+    "pink2 paleg2 . . . . . . . . .  sky1 mint2 red2 red3 peach4 yellow3 ."
+    "pink3 paleg3 sky2 sky3 sky4 sky5 sky6 sky7 sky8 sky9 sky10 sky11 mint3 mint4 red4 peach5 yellow4 ."
+    "pink4 paleg4 sky12 sky13 sky14 sky15 sky16 sky17 sky18 sky19 sky20 sky21 sky22 mint5 mint6 peach6 yellow5 ."
+    "pink5 paleg5 aqua1 sky23 sky24 sky25 sky26 sky27 sky28 sky29 sky30 sky31 sky32 sky33 sky34 mint7 yellow6 ."
+    "pink6 paleg6 lime1 sky35 sky36 sky37 sky38 sky39 grey1 grey2 grey3 sky40 grey4 grey5 grey6 grey7 grey8 ."
+    ". . . aqua2 aqua3 aqua4 aqua5 aqua6 aqua7 aqua8 aqua9 aqua10 aqua11 aqua12 aqua13 aqua14 . ."
+    ". . . lime2 lime3 lime4 lime5 lime6 lime7 lime8 lime9 lime10 lime11 lime12 lime13 lime14 . .";
+}
