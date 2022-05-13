@@ -1,0 +1,597 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 8px 8px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "grey-blue black black2 black3 black4 black5 black6 black7 black8 black9 black10 black11 black12 black13 black14 black15 yellow ."
+    "pink paleg black16 black17 black18 black19 black20 black21 black22 black23 black24 mint red peach peach2 peach3 yellow2 ."
+    "pink2 paleg2 black25 black26 black27 black28 black29 black30 black31 black32 black33 sky1 mint2 red2 red3 peach4 yellow3 ."
+    "pink3 paleg3 sky2 sky3 sky4 sky5 sky6 sky7 sky8 sky9 sky10 sky11 mint3 mint4 red4 peach5 yellow4 ."
+    "pink4 paleg4 sky12 sky13 sky14 sky15 sky16 sky17 sky18 sky19 sky20 sky21 sky22 mint5 mint6 peach6 yellow5 ."
+    "pink5 paleg5 aqua1 sky23 sky24 sky25 sky26 sky27 sky28 sky29 sky30 sky31 sky32 sky33 sky34 mint7 yellow6 ."
+    "pink6 paleg6 lime1 sky35 sky36 sky37 sky38 sky39 grey1 grey2 grey3 sky40 grey4 grey5 grey6 grey7 grey8 ."
+    ". . . aqua2 aqua3 aqua4 aqua5 aqua6 aqua7 aqua8 aqua9 aqua10 aqua11 aqua12 aqua13 aqua14 . ."
+    ". . . lime2 lime3 lime4 lime5 lime6 lime7 lime8 lime9 lime10 lime11 lime12 lime13 lime14 . .";
+}
+
+.grey-blue {
+  grid-area: grey-blue;
+}
+
+.black {
+  grid-area: black;
+}
+
+.black2 {
+  grid-area: black2;
+}
+
+.black3 {
+  grid-area: black3;
+}
+
+.black4 {
+  grid-area: black4;
+}
+
+.black5 {
+  grid-area: black5;
+}
+
+.black6 {
+  grid-area: black6;
+}
+
+.black7 {
+  grid-area: black7;
+}
+
+.black8 {
+  grid-area: black8;
+}
+
+.black9 {
+  grid-area: black9;
+}
+
+.black10 {
+  grid-area: black10;
+}
+
+.black11 {
+  grid-area: black11;
+}
+
+.black12 {
+  grid-area: black12;
+}
+
+.black13 {
+  grid-area: black13;
+}
+
+.black14 {
+  grid-area: black14;
+}
+
+.black15 {
+  grid-area: black15;
+}
+
+.yellow {
+  grid-area: yellow;
+}
+
+.yellow2 {
+  grid-area: yellow2;
+}
+
+.yellow3 {
+  grid-area: yellow3;
+}
+
+.yellow4 {
+  grid-area: yellow4;
+}
+
+.yellow5 {
+  grid-area: yellow5;
+}
+
+.yellow6 {
+  grid-area: yellow6;
+}
+
+.pink {
+  grid-area: pink;
+}
+
+.pink2 {
+  grid-area: pink2;
+}
+
+.pink3 {
+  grid-area: pink3;
+}
+
+.pink4 {
+  grid-area: pink4;
+}
+
+.pink5 {
+  grid-area: pink5;
+}
+
+.pink6 {
+  grid-area: pink6;
+}
+
+.paleg {
+  grid-area: paleg;
+}
+
+.paleg2 {
+  grid-area: paleg2;
+}
+
+.paleg3 {
+  grid-area: paleg3;
+}
+
+.paleg4 {
+  grid-area: paleg4;
+}
+
+.paleg5 {
+  grid-area: paleg5;
+}
+
+.paleg6 {
+  grid-area: paleg6;
+}
+
+.mint {
+  grid-area: mint;
+}
+
+.mint2 {
+  grid-area: mint2;
+}
+
+.mint3 {
+  grid-area: mint3;
+}
+
+.mint4 {
+  grid-area: mint4;
+}
+
+.mint5 {
+  grid-area: mint5;
+}
+
+.mint6 {
+  grid-area: mint6;
+}
+
+.mint7 {
+  grid-area: mint7;
+}
+
+.red {
+  grid-area: red;
+}
+
+.red2 {
+  grid-area: red2;
+}
+
+.red3 {
+  grid-area: red3;
+}
+
+.red4 {
+  grid-area: red4;
+}
+
+.peach {
+  grid-area: peach;
+}
+
+.peach2 {
+  grid-area: peach2;
+}
+
+.peach3 {
+  grid-area: peach3;
+}
+
+.peach4 {
+  grid-area: peach4;
+}
+
+.peach5 {
+  grid-area: peach5;
+}
+
+.peach6 {
+  grid-area: peach6;
+}
+
+.black16 {
+  grid-area: black16;
+}
+
+.black17 {
+  grid-area: black17;
+}
+
+.black18 {
+  grid-area: black18;
+}
+
+.black19 {
+  grid-area: black19;
+}
+
+.black20 {
+  grid-area: black20;
+}
+
+.black21 {
+  grid-area: black21;
+}
+
+.black22 {
+  grid-area: black22;
+}
+
+.black23 {
+  grid-area: black23;
+}
+
+.black24 {
+  grid-area: black24;
+}
+
+.black25 {
+  grid-area: black25;
+}
+
+.black26 {
+  grid-area: black26;
+}
+
+.black27 {
+  grid-area: black27;
+}
+
+.black28 {
+  grid-area: black28;
+}
+
+.black29 {
+  grid-area: black29;
+}
+
+.black30 {
+  grid-area: black30;
+}
+
+.black31 {
+  grid-area: black31;
+}
+s .black32 {
+  grid-area: black32;
+}
+
+.black33 {
+  grid-area: black33;
+}
+
+.sky1 {
+  grid-area: sky1;
+}
+
+.sky2 {
+  grid-area: sky2;
+}
+
+.sky3 {
+  grid-area: sky3;
+}
+
+.sky4 {
+  grid-area: sky4;
+}
+
+.sky5 {
+  grid-area: sky5;
+}
+
+.sky6 {
+  grid-area: sky6;
+}
+
+.sky7 {
+  grid-area: sky7;
+}
+
+.sky8 {
+  grid-area: sky8;
+}
+
+.sky9 {
+  grid-area: sky9;
+}
+
+.sky10 {
+  grid-area: sky10;
+}
+
+.sky11 {
+  grid-area: sky11;
+}
+
+.sky12 {
+  grid-area: sky12;
+}
+
+.sky13 {
+  grid-area: sky13;
+}
+
+.sky14 {
+  grid-area: sky14;
+}
+
+.sky15 {
+  grid-area: sky15;
+}
+
+.sky16 {
+  grid-area: sky16;
+}
+
+.sky17 {
+  grid-area: sky17;
+}
+
+.sky18 {
+  grid-area: sky18;
+}
+
+.sky19 {
+  grid-area: sky19;
+}
+
+.sky20 {
+  grid-area: sky20;
+}
+
+.sky21 {
+  grid-area: sky21;
+}
+
+.sky22 {
+  grid-area: sky22;
+}
+
+.sky23 {
+  grid-area: sky23;
+}
+
+.sky24 {
+  grid-area: sky24;
+}
+
+.sky25 {
+  grid-area: sky25;
+}
+
+.sky26 {
+  grid-area: sky26;
+}
+
+.sky27 {
+  grid-area: sky27;
+}
+
+.sky28 {
+  grid-area: sky28;
+}
+
+.sky29 {
+  grid-area: sky29;
+}
+
+.sky30 {
+  grid-area: sky30;
+}
+
+.sky31 {
+  grid-area: sky31;
+}
+
+.sky32 {
+  grid-area: sky32;
+}
+
+.sky33 {
+  grid-area: sky33;
+}
+
+.sky34 {
+  grid-area: sky34;
+}
+
+.sky35 {
+  grid-area: sky35;
+}
+
+.sky36 {
+  grid-area: sky36;
+}
+
+.sky37 {
+  grid-area: sky37;
+}
+
+.sky38 {
+  grid-area: sky38;
+}
+
+.sky39 {
+  grid-area: sky39;
+}
+
+.sky40 {
+  grid-area: sky40;
+}
+
+.lime1 {
+  grid-area: lime1;
+}
+
+.lime2 {
+  grid-area: lime2;
+}
+
+.lime3 {
+  grid-area: lime3;
+}
+
+.lime4 {
+  grid-area: lime4;
+}
+
+.lime5 {
+  grid-area: lime5;
+}
+
+.lime6 {
+  grid-area: lime6;
+}
+
+.lime7 {
+  grid-area: lime7;
+}
+
+.lime8 {
+  grid-area: lime8;
+}
+
+.lime9 {
+  grid-area: lime9;
+}
+
+.lime10 {
+  grid-area: lime10;
+}
+
+.lime11 {
+  grid-area: lime11;
+}
+
+.lime12 {
+  grid-area: lime12;
+}
+
+.lime13 {
+  grid-area: lime13;
+}
+
+.lime14 {
+  grid-area: lime14;
+}
+
+.grey1 {
+  grid-area: grey1;
+}
+
+.grey2 {
+  grid-area: grey2;
+}
+
+.grey3 {
+  grid-area: grey3;
+}
+
+.grey4 {
+  grid-area: grey4;
+}
+
+.grey5 {
+  grid-area: grey5;
+}
+
+.grey6 {
+  grid-area: grey6;
+}
+
+.grey7 {
+  grid-area: grey7;
+}
+
+.grey8 {
+  grid-area: grey8;
+}
+
+.aqua1 {
+  grid-area: aqua1;
+}
+
+.aqua2 {
+  grid-area: aqua2;
+}
+
+.aqua3 {
+  grid-area: aqua3;
+}
+
+.aqua4 {
+  grid-area: aqua4;
+}
+
+.aqua5 {
+  grid-area: aqua5;
+}
+
+.aqua6 {
+  grid-area: aqua6;
+}
+
+.aqua7 {
+  grid-area: aqua7;
+}
+
+.aqua8 {
+  grid-area: aqua8;
+}
+
+.aqua9 {
+  grid-area: aqua9;
+}
+
+.aqua10 {
+  grid-area: aqua10;
+}
+
+.aqua11 {
+  grid-area: aqua11;
+}
+
+.aqua12 {
+  grid-area: aqua12;
+}
+
+.aqua13 {
+  grid-area: aqua13;
+}
+
+.aqua14 {
+  grid-area: aqua14;
+}
